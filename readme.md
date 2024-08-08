@@ -19,7 +19,7 @@
 
 ## CSV Files
 
-- `business_data.csv`: Stores all of scraped information from given website. [text](https://bizfileonline.sos.ca.gov/search/ucc).
+- `business_data.csv`: Stores all of scraped information from given website. [website](https://bizfileonline.sos.ca.gov/search/ucc).
 - `contact_info.csv`: This file will store specific information about debtor names, including additional contact information like emails, phone numbers, and website links.
 
 
