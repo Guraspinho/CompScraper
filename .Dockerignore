@@ -1,0 +1,25 @@
+# Node modules
+node_modules
+node_modules/
+
+
+src/
+**/*.ts
+
+
+dist/
+build/
+
+
+.env
+
+
+
+# Docker files
+Dockerfile*
+docker-compose*
+
+# Other files and directories to exclude
+README.md
+.git/
+.gitignore

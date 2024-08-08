@@ -1,0 +1,28 @@
+{
+  "name": "webscraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/server.tsc",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "build-and-run": "npm run build && npm start",
+    "dev": "nodemon --watch src --ext ts --exec \"npm run build-and-run\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.3",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.3.0",
+    "puppeteer": "^23.0.1"
+  }
+}
