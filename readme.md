@@ -1,11 +1,19 @@
 # Web Scraper
 
-## Author Irakli Guraspashvili
+## Author: Irakli Guraspashvili
 
 
 ## Description
+There are two routes, one for scraping data from a website and one for searching numbers, emails and other contact info.
 
+- localhost:5000/api/companydata?search=comp
 
+Route is for scraping data, a query parameter is used for searching certain companies and storing them in CSV file.
+
+- localhost:5000/api/contactinfo
+
+This route uses Google custom search engine. 
+Flow: names are read from csv  `buisness_data.csv` and search engine is looking for websites based on that names, after that,  new csv file gets created containing contact information of every company(if retrieved).
 
 ## Used Technologies
 1. TypeScript
